@@ -8,6 +8,21 @@
 /*BODY*/
 body{
 	min-height: 100vh;
+	background-image: url('../img/limaperu.jpg');
+}
+
+body:before{
+	content: "";
+	width: 100%;
+	min-height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	background: linear-gradient(90deg, black, black);
+
+	opacity: 0.7;
+	z-index: -1;
 }
 
 /*HEADER*/
