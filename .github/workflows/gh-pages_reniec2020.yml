@@ -56,5 +56,5 @@
           with:
             app-name: 'reniec2020'
             slot-name: 'production'
-            publish-profile: ${{ secrets.AzureAppService_PublishProfile_bf771b15832e457bbf288e3f147e8b86 }}
+            publish-profile: ${{ secrets.AzureAppService_PublishProfile_db151137ece148bcb8edd288c510483b }}
             package: .
