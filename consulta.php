@@ -4,7 +4,7 @@ $dni = htmlentities($_POST['dni']);
 
 error_reporting(0);
 
-$url = "https://dniruc.apisperu.com/api/v1/dni/".$dni."?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Im1heG1jbV92aXBAaG90bWFpbC5jb20ifQ.0xkHI_pPqS2CA3bK0UldWZqzjfp26jJHr7GQuJGahlU";
+$url = "https://dniruc.apisperu.com/api/v1/dni/".$dni."?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImRlbGlhYWR2aW5jb2xhQGdtYWlsLmNvbSJ9.YBryVHFOzm8Lrhz0QkhPSopnnIm0VAvNbdtANBpP1R4";
 
 $jsonpractica=file_get_contents($url);
 
